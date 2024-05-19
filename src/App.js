@@ -1,3 +1,4 @@
+/*
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +19,27 @@ function App() {
           Learn React
         </a>
       </header>
+    </div>
+  );
+}
+
+export default App;
+
+*/
+
+
+import React from 'react';
+import './App.css';
+import Header from './components/Header';
+import Formulario from './components/Formulario';
+import Footer from './components/Footer';
+
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <Formulario />
+      <Footer />
     </div>
   );
 }
